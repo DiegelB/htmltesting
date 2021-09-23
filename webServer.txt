@@ -1,0 +1,11 @@
+go to /usr/lib/cgi-bin to access the python script for the webserver. 
+then on a webpage you type in http://192.168.1.250/cgi-bin/test.py to see the file
+
+first i installed an apache web server to the machine and accessed the file in 
+/usr/lib/cgio-bin. i can only run the pyhton files from that directory
+
+you also need to give the right permissions to your pyhton files, as well as the directory
+sudo chmod 755 foo.py 
+
+always add the shebang at the top of the python file 
+#!/usr/bin/python3
